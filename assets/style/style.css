@@ -338,7 +338,7 @@ footer {
   margin-top: 20px;
 }
 
-@media (width > 1012px) {
+@media (width > 1112px) {
   .search-btn {
     display: none;
   }
