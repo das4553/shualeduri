@@ -42,7 +42,7 @@
     flex-direction: column-reverse;
   }
   .wrapper-for-css-2 {
-    height: 850px;
+    height: 375px;
   }
   .btn-3 {
     width: 334px;
@@ -57,10 +57,22 @@
     align-self: center;
     margin-bottom: 10px;
   }
+  .div-6 {
+    flex-direction: column-reverse;
+    text-align: end;
+    justify-content: center;
+    font-size: 14px;
+  }
+
+  .info-3 {
+    text-align: start;
+    margin-top: -20px;
+    margin-left: 6rem;
+  }
 }
 .wrapper-for-css-2 {
   background-color: #f8f8f8;
-  min-width: 710px;
+  width: 710px;
   min-height: 730px;
   border-radius: 24px;
   padding: 20px;
