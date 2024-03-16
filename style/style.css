@@ -156,7 +156,7 @@ aside div form label span {
 }
 
 .Search-div {
-  background-image: url(/images/city-img.jpg);
+  background-image: url(../images/city-img.jpg);
   min-width: 999px;
   min-height: 700px;
   background-size: cover;
