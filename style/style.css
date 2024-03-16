@@ -360,8 +360,6 @@ footer {
   }
   .wrapper-2 h2 {
     text-align: center;
-    font-size: 24px;
-    line-height: 36px;
   }
   .search-icon {
     display: none;
@@ -399,6 +397,8 @@ footer {
   }
   .Search-div h1 {
     text-align: center;
+    font-size: 24px;
+    line-height: 36px;
   }
   .column {
     display: flex;
