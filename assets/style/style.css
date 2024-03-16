@@ -156,7 +156,7 @@ aside div form label span {
 }
 
 .Search-div {
-  background-image: url(/assets/images/img.jpg);
+  background-image: url(/assets/img.jpg);
   min-width: 999px;
   min-height: 700px;
   background-size: cover;
@@ -293,7 +293,7 @@ aside div form label span {
   border-radius: 50%;
   right: 2px;
   top: 11rem;
-  background-image: url(/assets/images/bookmark\ .png);
+  background-image: url(/assets/bookmark\ .png);
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -375,7 +375,7 @@ footer {
     cursor: pointer;
   }
   .Search-div {
-    background-image: url(/assets/images/img.jpg);
+    background-image: url(/assets/img.jpg);
     min-width: 335px;
     min-height: 535px;
     background-size: cover;
