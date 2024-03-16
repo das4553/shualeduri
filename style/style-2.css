@@ -14,6 +14,7 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+
 @media (width > 1124px) {
   .btn-2:hover {
     color: white;
@@ -42,7 +43,7 @@
     flex-direction: column-reverse;
   }
   .wrapper-for-css-2 {
-    height: 375px;
+    width: 375px;
   }
   .btn-3 {
     width: 334px;
