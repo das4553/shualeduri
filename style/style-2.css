@@ -181,3 +181,12 @@
   /* margin-left: 10px; */
   transition-duration: 1s;
 }
+
+@media (width < 921px) {
+  .wrapper-for-css-2 {
+    width: 375px;
+  }
+  .div-5 {
+    flex-direction: column;
+  }
+}
