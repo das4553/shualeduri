@@ -351,9 +351,6 @@ footer {
   header nav ul {
     display: none;
   }
-  aside {
-    width: 375px;
-  }
 
   .btn-1 {
     display: none;
@@ -458,5 +455,15 @@ footer {
   .vertical {
     top: 20px;
     left: 27px;
+  }
+}
+
+@media (width < 921px) {
+  aside {
+    width: 355px;
+    height: 739px;
+  }
+  .content {
+    width: 335px;
   }
 }
