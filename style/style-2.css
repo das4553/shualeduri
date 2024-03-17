@@ -15,7 +15,7 @@
   flex-wrap: wrap;
 }
 
-@media (width > 1124px) {
+@media (width > 1024px) {
   .btn-2:hover {
     color: white;
     background-color: rgba(41, 178, 78, 1);
@@ -29,7 +29,7 @@
   }
 }
 
-@media (width < 1124px) {
+@media (width < 1024px) {
   .main-img {
     width: 401px;
     height: 304px;
@@ -185,6 +185,7 @@
 @media (width < 921px) {
   .wrapper-for-css-2 {
     width: 375px;
+    margin-top: 40px;
   }
   .div-5 {
     flex-direction: column;

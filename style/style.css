@@ -150,7 +150,7 @@ aside div form label span {
   display: flex;
   flex-wrap: wrap-reverse;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: row;
   padding: 20px 3%;
 }
@@ -165,8 +165,7 @@ aside div form label span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  margin-left: 20px;
+  margin-left: px;
   padding: 30px;
   gap: 30px;
   border-radius: 20px;
@@ -338,7 +337,7 @@ footer {
   margin-top: 20px;
 }
 
-@media (width > 1112px) {
+@media (width > 1024px) {
   .search-btn {
     display: none;
   }
@@ -347,7 +346,7 @@ footer {
   }
 }
 
-@media (width < 1112px) {
+@media (width < 1024px) {
   header nav ul {
     display: none;
   }
@@ -377,7 +376,7 @@ footer {
   .Search-div {
     background-image: url(../images/city-img.jpg);
     min-width: 335px;
-    min-height: 535px;
+    min-height: 435px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -416,13 +415,17 @@ footer {
   .responsive-menu {
     background-color: rgba(255, 255, 255, 1);
     width: 100%;
-    height: 20vh;
+    height: 15vh;
     border-radius: 24px 24px 0px 0px;
     margin-top: 30px;
     padding: 20px 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    bottom: -5px;
+    right: 0;
+    left: 0;
   }
   .responsive-menu div a {
     text-decoration: none;
@@ -455,6 +458,9 @@ footer {
   .vertical {
     top: 20px;
     left: 27px;
+  }
+  footer {
+    height: 44vh;
   }
 }
 
