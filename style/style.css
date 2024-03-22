@@ -59,6 +59,10 @@ header nav ul li:nth-child(1) a {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 aside {
@@ -150,15 +154,15 @@ aside div form label span {
   display: flex;
   flex-wrap: wrap-reverse;
   align-items: center;
-  justify-content: space-around;
-  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
   padding: 20px 3%;
 }
 
 .Search-div {
   background-image: url(../images/city-img.jpg);
   min-width: 999px;
-  min-height: 700px;
+  height: 700px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -277,13 +281,23 @@ aside div form label span {
 }
 
 .flex {
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap; */
   gap: 20px;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
+@media (width < 1300px) {
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .mark {
   width: 40px;
   height: 40px;
@@ -376,7 +390,7 @@ footer {
   .Search-div {
     background-image: url(../images/city-img.jpg);
     min-width: 335px;
-    min-height: 700px;
+    height: 730px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -386,6 +400,8 @@ footer {
     justify-content: flex-start;
     padding: 20px;
     border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
   .Search-div input {
     display: none;
@@ -459,7 +475,7 @@ footer {
     left: 27px;
   }
   footer {
-    height: 44vh;
+    height: 35vh;
   }
 }
 
@@ -474,5 +490,11 @@ footer {
   .Search-div {
     min-width: 335px;
     min-height: 435px;
+  }
+  footer {
+    height: 30vh;
+  }
+  .Search-div {
+    height: 600px;
   }
 }
